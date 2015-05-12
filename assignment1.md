@@ -125,7 +125,7 @@ sum(is.na(data))
 
 2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
    
-   In this case, I used the mean for the relevant 5-minute interval to replace the NAs. The mean values were generated in previous section. 
+   In this case, I used the mean for relevant 5-minute interval to replace the NAs. The mean values were generated in previous section. 
    
    
 
