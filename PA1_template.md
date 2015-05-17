@@ -125,7 +125,7 @@ sum(is.na(data))
 
 2. Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
    
-   In this case, I used the mean for relevant 5-minute interval to replace the NAs. The mean values were generated in previous section. 
+   In this case, I used the mean for relevant 5-minute interval to replace the NAs. The mean values were generated in the previous section. 
    
    
 
@@ -189,7 +189,7 @@ newdata
 ## ..       ...        ...      ...
 ```
 
-4. Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
+4. Make a histogram of the total number of steps taken each day. Calculate and report the mean and median total numbers of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
 
 ```r
@@ -234,7 +234,7 @@ median(newplotdata$totalstep)
 ## [1] 10766.19
 ```
 
-**According to the result, after imputing missing value from original data, the mean of the total number of steps did not change,but the median value increased slightly.**
+**According to the result, after imputing the missing value from the original data, the mean of the total number of steps did not change,but the median value increased slightly.**
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
